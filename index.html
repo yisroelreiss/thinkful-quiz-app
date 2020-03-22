@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <h1>Test Your Simpsons Knowledge</h1>
+
+       <!-- Start Screen. -->
+       <div id="startScreen" class="box">
+        <p>
+          Test your Simpsons knowledge to the max with 100 questions ranging from incredibly easy to incredibly hard! Press the button below to start the quiz.
+        </p>
+        <button class="start">Start Quiz</button>
+      </div>
+
+      <!-- Question Placeholder. -->
+      <div id="question" class="box">
+      </div>
+      
+      <!-- Feedback Placeholder. -->
+      <div id="feedback" class="feedbackBox">
+        <p>The correct answers will be displayed in this box.</p>
+      </div> 
+      
+      <!-- Finish Screen Placeholder. -->
+      <div id="finish" class="box">
+        <h2>Game Over!</h2>
+        <h2>Your score is <span class="score"> 0</span></h2>
+        <button class="startOver">Redo Quiz</button>
+      </div>
+
+      <!-- Score Box -->
+      <div class="scoreBoxHeight">
+        <p>Question: <span class="questionNumber">0</span> Out of <span class="questionAmount"></span></p>
+        <p>Score: <span class="score"> 0</span></p>
+      </div>
+
+      <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8="
+      crossorigin="anonymous"
+    ></script>
+    <script src="store.js"></script>
+    <script src="index.js"></script>
+  </body>
+  </html>
+
