@@ -23,8 +23,7 @@ body {
 /* this makes it that you don't see the question and feedback when you start */
 #question,
 /* #feedback, */
-#finish,
-.nextButton {
+#finish {
   display: none;
 }
 
